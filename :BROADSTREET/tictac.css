@@ -1,0 +1,68 @@
+body {
+	/*position: absolute;*/
+	font-size: 14px;
+	font-family: Helvetica;
+}
+
+.background {
+	/*-webkit-filter: blur(1px);
+	-moz-filter: blur(1px);
+	-o-filter: blur(1px);
+	-ms-filter: blur(1px);*/
+	position: absolute; 
+	margin-top: -20px; 
+	margin-left: -20px; 
+	
+  /* Preserve aspect ratio */
+    height: 110%;
+    width: 110%; /* ie8 */
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -1;
+
+}
+
+.content{
+	display: none;
+	position: fixed;
+	font-family: "Arial";
+	color: white;
+
+	line-height: 200px;
+    margin-top: -100px;
+	top: 50%;
+	width: 100%;
+	font-size: 80px;
+	text-align: center;
+}
+
+.one{
+	position: fixed;
+    width: 400px;
+}
+
+
+.two{
+	position: fixed;
+    width: 400px;
+
+}
+
+
+.three{
+	position: fixed;
+    width: 400px;
+
+}
+
+
+.four{
+	position: fixed;
+    width: 400px;
+
+}
+
+
+
+
+
